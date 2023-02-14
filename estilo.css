@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -7,8 +7,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.banner{
+.banner {
     width: 940px;
+    height: auto;
 }
 
 header {
@@ -50,25 +51,26 @@ nav a:hover {
 }
 
 
-form{
+form {
     margin: 40px 0;
 }
 
-form label, form legend{
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 
 }
 
-.input-padrao{
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
 
-.checkbox{
+.checkbox {
     margin: 20px 0;
 }
 
@@ -81,51 +83,52 @@ form label, form legend{
 
 }
 
-.titulo-principal{
+.titulo-principal {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
     background: #cccccc;
-    
+
 }
 
-.principal{
+.principal {
     padding: 3em 0;
     background: #fefefefe;
     width: 940px;
     margin: 0 auto;
 }
 
-.principal p{
+.principal p {
     margin: 0 0 1em;
 }
 
-.principal strong{
+.principal strong {
     font-weight: bold;
 }
 
-.principal em{
+.principal em {
     font-style: italic;
 }
 
-.beneficios{
+.beneficios {
     padding: 3em 0;
+    margin: 0, 0, 2em;
     background: #888888;
 }
 
-.conteudo-beneficios{
+.conteudo-beneficios {
     width: 640px;
     margin: 0 auto;
 }
 
-.lista-beneficios{
+.lista-beneficios {
     width: 40%;
     display: inline-block;
     vertical-align: top;
 }
 
-.itens{
+.itens {
     line-height: 1.5;
 }
 
@@ -136,34 +139,33 @@ form label, form legend{
    Usando o nth-child() colocando o valor dentro dos parenteses informa  qual linha fica negrito.
    Obs.: Usando o nth-child(2n) ele pega todos os elemenetos pares da lista.
    */
-.itens:first-child{
+.itens:first-child {
     font-weight: bold;
 }
 
 /* Box-shadow, serve para colocar sombra nas imagens e text-shadow em textos*/
-.lista-beneficios{
+.lista-beneficios {
     width: 40%;
     display: inline-block;
     vertical-align: top;
     opacity: 1;
     transition: 400ms;
     box-shadow: 0.5 0.5px 10px #000000
-
 }
 
-.utensilios{
+.utensilios {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
 
 }
 
-.mapa{
+.mapa {
     padding: 3em 0;
     background: linear-gradient(#fefefe, #888888);
 }
 
-.mapa-conteudo{
+.mapa-conteudo {
     width: 940px;
     margin: 0 auto;
     height: 50%;
@@ -171,27 +173,45 @@ form label, form legend{
 
 }
 
-.mapa p{
+.mapa p {
     margin: 0 0 2em;
     text-align: center;
 }
 
-.video{
+.video,
+.video1 {
     width: 560px;
-    margin: 2em auto;
-
-}
-
-.carro{
-    width: 100%;
+    display: flex;
+    float: left;
+    margin-left: 100px;
     text-align: center;
-    padding: 10px;
-    
+    padding-top: 25px;
+    justify-content: space-between;
+
+
+
 }
+
+.carro,
+.carro1 {
+    width: 560px;
+    display: flex;
+    float: left;
+    margin-left: 80px;
+    padding: 25px;
+    display: flexbox;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+
+
+
+
 
 footer {
     text-align: center;
     padding: 40px 0;
     color: #888888;
 }
-
