@@ -183,13 +183,10 @@ form legend {
     width: 560px;
     display: flex;
     float: left;
-    margin-left: 100px;
+    margin-left: 80px;
     text-align: center;
-    padding-top: 25px;
-    justify-content: space-between;
-
-
-
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .carro,
@@ -198,13 +195,10 @@ form legend {
     display: flex;
     float: left;
     margin-left: 80px;
-    padding: 25px;
-    display: flexbox;
     text-align: center;
-    justify-content: space-between;
-    box-shadow: 0.5 0.5px 10px #000000
-
-
+    padding-top: 25px;
+    padding-bottom: 10px;
+    overflow: hidden;
 
 }
 
