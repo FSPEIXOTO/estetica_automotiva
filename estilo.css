@@ -178,28 +178,26 @@ form legend {
     text-align: center;
 }
 
-.video,
-.video1 {
-    width: 560px;
+.video, .video1 {
     display: flex;
-    float: left;
-    margin-left: 80px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.carro,
-.carro1 {
-    width: 560px;
+.automovel {
     display: flex;
-    float: left;
-    margin-left: 80px;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;}
 
+.carro, .carro1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
